@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	color: #979ca4;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	color: #ffffff;
+	font-weight: 900;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	gap: 20px;
+}
+
+.header, .section-one {
+	background-color: #1f2937;
+}
