@@ -52,7 +52,6 @@ ul {
 	background-color: #1f2937;
 	padding: 20px 200px;
 	display: flex;
-	justify-content: space-between;
 
 }
 
