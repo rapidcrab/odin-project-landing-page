@@ -19,7 +19,7 @@ body {
 }
 
 .image {
-	width: 300px;
+	width: 1000px;
 	height: 200px;
 	background-color: #e5e7eb;
 	display: flex;
@@ -30,13 +30,19 @@ body {
 .content {
 	display: flex;
 	flex-direction: column;
+	margin-right: 25px;
 }
 
 .sign-up {
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 8px;
 	width: fit-content;
 	padding: 8px 32px;
+	margin-top: 10px;
+	font-size: 16px;
 }
-
 
 ul {
 	color: white;
@@ -53,10 +59,17 @@ ul {
 	padding: 20px 200px;
 	display: flex;
 	justify-content: space-between;
+}
 
+.section-one {
+	padding-top: 60px;
+	padding-bottom: 80px;
 }
 
 .title-wrap {
+	font-weight: 900px;
+	font-size: 24px;
+	color: #ffff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
