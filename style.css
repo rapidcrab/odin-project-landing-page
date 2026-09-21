@@ -102,5 +102,20 @@ ul {
 
 .section-three {
 	background-color: #e5e7eb;
+	display:flex;
+	justify-content:center;
 }
 
+.container {
+	width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+.quote {
+	font-size: 30px;
+}
+.author {
+	display: flex;
+	justify-content:flex-end;
