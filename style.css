@@ -4,17 +4,14 @@ body {
 	flex-direction: column;
 }
 
-.text {
-	color: #979ca4;
-}
-
 .header {
 	display: flex;
 	justify-content: space-between;
 }
 
 .logo {
-	color: #ffffff;
+	color: #F9FAF8;
+	font-size: 24px;
 	font-weight: 900;
 }
 
@@ -33,15 +30,15 @@ body {
 	margin-right: 25px;
 }
 
-.sign-up {
-	background-color: blue;
+button, .container-two {
+	background-color: #3882F6;
 	color: white;
-	border: none;
 	border-radius: 8px;
 	width: fit-content;
 	padding: 8px 32px;
 	margin-top: 10px;
 	font-size: 16px;
+	gap: 100px;
 }
 
 ul {
@@ -66,23 +63,29 @@ ul {
 	padding-bottom: 80px;
 }
 
-.title-wrap {
-	font-weight: 900px;
-	font-size: 24px;
-	color: #ffff;
+.main-text {
+	font-weight: 900;
+	font-size: 48px;
+	color: #F9FAF8;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px
 }
 
+.secondary-text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
 .section-two {
 	padding:20px 200px;
 }
 
-.info-title {
+.info-heading {
+	font-size: 36px;
+	color: #1F2937;
 	font-weight: 900;
-	font-size: 20px;
 	text-align: center;
 	padding: 40px;
 }
@@ -114,7 +117,11 @@ ul {
 }
 
 .quote {
-	font-size: 30px;
+	background-color: #E5E7EB;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+	font-style: italic;
 }
 .author {
 	align-self: flex-end;
@@ -139,10 +146,6 @@ ul {
 	border-radius: 6px;
 	color: white;
 	box-sizing: border-box;
-}
-
-.sign-up {
-	font-weight: bold;
 }
 
 .copy {
